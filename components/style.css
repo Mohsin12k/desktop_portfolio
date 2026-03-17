@@ -103,7 +103,7 @@ main {
     font-size: clamp(0.5rem, min(50vw, 60vh), 1rem); /* we changed its values*/
     letter-spacing: 2px;
     text-align: center;
-    margin-top: 6rem;
+    margin-top: 8rem;
     font-weight: bold;
     text-transform: uppercase;
 }
