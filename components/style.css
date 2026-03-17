@@ -128,7 +128,6 @@ main {
     font-size: clamp(0.5rem, min(10vw, 20vh), 1rem);
     letter-spacing: 2px;
     text-align: center;
-    margin-top: 1rem;
     margin-bottom: 1rem;
     font-weight: bold;
     text-transform: uppercase;
