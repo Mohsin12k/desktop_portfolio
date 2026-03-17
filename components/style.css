@@ -73,6 +73,7 @@ main {
     border: 2px solid white;
     outline: none;
     transition: all 0.3s ease-out;
+    margin-bottom: 20px;
 }
 
 /* section 1 container styles */
@@ -180,14 +181,14 @@ main {
     justify-content: center;
     align-items: center;
     transition: all 0.3s ease-out;
-    /* z-index: 1000; */
 }
 
 /* its values are changed */
 /* show section 2 */
-.show-section-2 {
+ .show-section-2 {
     transition: all 0.5s ease-out;
     position: absolute;
+    height: 490px;
     transform: translateX(100%);
     animation: showSec2 0.8s ease-out;
     margin-left: 40px;
