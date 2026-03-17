@@ -67,8 +67,8 @@ main {
 /* section 1 image */
 
 .sec-1-img img{
-    width: clamp(50px, min(50vw, 60vh), 150px);
-    height: clamp(80px, min(50vw, 60vh), 180px);
+    width: clamp(30px, min(50vw, 60vh), 150px);
+    height: clamp(60px, min(50vw, 60vh), 180px);
     border-radius: 50%;
     border: 2px solid white;
     outline: none;
@@ -99,7 +99,7 @@ main {
 
 .sec-1-text h1{
     color: white;
-    font-size: clamp(0.5rem, min(10vw, 20vh), 2rem);
+    font-size: clamp(0.5rem, min(50vw, 60vh), 1rem); /* we changed its values*/
     letter-spacing: 2px;
     text-align: center;
     margin-top: 6rem;
@@ -107,8 +107,8 @@ main {
     text-transform: uppercase;
 }
 .sec-1-text p{
-    color: white;
-    font-size: clamp(0.5rem, min(10vw, 20vh), 1rem);
+    color: white;  
+    font-size: clamp(0.5rem, min(50vw, 60vh), 0.7rem); /* we changed its values */
     letter-spacing: 2px;
     text-align: center;
     margin-top: -0.5rem;
@@ -118,8 +118,8 @@ main {
 
 .callBtn {
     background-color: transparent;
-    padding: 2% 0%;
-    width: clamp(150px, min(50vw, 60vh), 400px);
+    padding: 1% 0%; /* its values are changed*/
+    width: clamp(150px, min(50vw, 60vh), 350px); /* its values are changed */
     border-radius: 10px;
     border: 2px solid red;
     outline: none;
@@ -168,10 +168,11 @@ main {
 }
 /* section 2 styles */
 
+/* its values are changed */
 #sec-art-2 {
     position: absolute;
     width: min(30%, 490px);
-    height: min(65%, 510px);
+    height: 490px;
     background-color: #333;
     border-radius: 10px;
     display: flex;
@@ -179,23 +180,29 @@ main {
     justify-content: center;
     align-items: center;
     transition: all 0.3s ease-out;
+    /* z-index: 1000; */
 }
 
+/* its values are changed */
 /* show section 2 */
 .show-section-2 {
     transition: all 0.5s ease-out;
     position: absolute;
     transform: translateX(100%);
     animation: showSec2 0.8s ease-out;
+    margin-left: 40px;
+    opacity: 1;
 }
 
 /* hide section 2 */
-
+/* its values are changed */
 .hide-section-2 {
     transition: all 0.5s ease-out;
     position: absolute;
     transform: translateX(0%);
     animation: hideSec2 0.8s ease-out;
+    margin-left: 0px;
+    opacity: 0;
 }
 
 /* section 2 h2 */
@@ -592,7 +599,7 @@ main {
 
 @media screen and (min-width: 1024px) and (max-width: 1024px) {
     .sec-1-text h1{
-    font-size: clamp(0.5rem, min(10vw, 20vh), 1.5rem);
+    font-size: clamp(0.5rem, min(50vw, 60vh), 1rem);
 }
     .sec-1-text p{
     font-size: clamp(0.5rem, min(2vw, 3.5vh), 0.8rem);
