@@ -129,6 +129,7 @@ main {
     letter-spacing: 2px;
     text-align: center;
     margin-top: 1rem;
+    margin-bottom: 1rem;
     font-weight: bold;
     text-transform: uppercase;
     cursor: pointer;
@@ -191,7 +192,7 @@ main {
     height: 490px;
     transform: translateX(100%);
     animation: showSec2 0.8s ease-out;
-    margin-left: 40px;
+    margin-left: 100px;
     opacity: 1;
 }
 
